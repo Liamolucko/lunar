@@ -1,0 +1,14 @@
+[package]
+name = "lunar"
+version = "0.1.0"
+authors = ["Liamolucko <liampm32@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+clap = "2.33"
+warp = "0.2"
+tokio = { version = "0.2", features = ["full"] }
+swc_ecmascript = "0.15.0"
+anyhow = "1.0.35"
+futures-util = "0.3.8"
